@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Fullstack ASP.NET Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Experienced Fullstack ASP.NET Developer specializing in modern web applications, cloud solutions, and scalable architectures.">
+    <meta name="keywords" content="ASP.NET, C#, Fullstack Developer, Web Development, Azure, React, .NET Core">
+    <meta name="author" content="Your Name">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Your Name - Fullstack ASP.NET Developer">
+    <meta property="og:description" content="Experienced Fullstack ASP.NET Developer specializing in modern web applications, cloud solutions, and scalable architectures.">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="https://yourportfolio.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Your Name - Fullstack ASP.NET Developer">
+    <meta name="twitter:description" content="Experienced Fullstack ASP.NET Developer specializing in modern web applications, cloud solutions, and scalable architectures.">
+    <meta name="twitter:image" content="images/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#soft-skills" class="nav-link">Soft Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles-container">
+            <canvas id="particles-canvas"></canvas>
+        </div>
+        <div class="scrolling-code">
+            <div class="code-line">using System;</div>
+            <div class="code-line">public class Developer</div>
+            <div class="code-line">{</div>
+            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;public string Name => "Your Name";</div>
+            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;public string[] Skills => new[] { "ASP.NET", "C#", "JavaScript", "React", "Azure" };</div>
+            <div class="code-line">}</div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Mohamed Galal</span><br>
+                        Fullstack ASP.NET Developer
+                    </h1>
+                    <p class="hero-description">
+                        Passionate about creating robust, scalable web applications using modern technologies.
+                        Specializing in .NET ecosystem, and full-stack development.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="images/5861967646042475202.jpg" alt="Developer Photo" class="profile-img">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="about-subtitle">Fullstack ASP.NET Developer</h3>
+                    <p class="about-description">
+                        I'm a passionate developer with <span class="highlight-text">1 year</span> of experience 
+                        building modern web applications. I specialize in ASP.NET Core, C#, and JavaScript, 
+                        creating scalable solutions that solve real-world problems.
+                    </p>
+                    
+                    <div class="about-skills">
+                        <div class="skill-highlight">
+                            <i class="fas fa-code"></i>
+                            <span>Full-Stack Development</span>
+                        </div>
+                        <div class="skill-highlight">
+                            <i class="fas fa-database"></i>
+                            <span>Database Design</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    
+                    <div class="stat-card">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/placeholder-image.png" alt="Multi-Store Delivery Platform">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span class="tech-tag">ASP.NET Core</span>
+                                <span class="tech-tag">Entity Framework</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">SQL Server</span>
+                                <span class="tech-tag">SignalR</span>
+                                <span class="tech-tag">Azure</span>
+                            </div>
+                            <a href="#" class="view-details">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Multi-Store Delivery Platform</h3>
+                        <p class="project-description">
+                            Comprehensive delivery platform connecting customers with restaurants, supermarkets, pharmacies, and other stores. Features real-time order tracking, multi-role management for customers, stores, and delivery companies, with an admin control panel overseeing all operations.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Backend Development</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">ASP.NET Core</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C#</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Entity Framework</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Web API</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend Development</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">React</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML/CSS</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <!-- <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Blazor</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Database & Cloud</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL Server</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <!-- <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Azure</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div> -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Docker</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soft Skills Section -->
+    <section id="soft-skills" class="soft-skills">
+        <div class="container">
+            <h2 class="section-title">Soft Skills</h2>
+            <div class="soft-skills-content">
+                <div class="soft-skills-intro">
+                    <p class="soft-skills-description">
+                        Beyond technical expertise, I bring strong interpersonal and professional skills that drive successful project outcomes.
+                    </p>
+                </div>
+                
+                <div class="soft-skills-grid">
+                    <div class="soft-skill-item">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="soft-skill-content">
+                            <h3 class="soft-skill-title">Team Leadership</h3>
+                            <p class="soft-skill-description">
+                                Experienced in leading development teams and coordinating cross-functional projects.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="soft-skill-item">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="soft-skill-content">
+                            <h3 class="soft-skill-title">Communication</h3>
+                            <p class="soft-skill-description">
+                                Strong verbal and written communication skills, able to explain complex technical concepts to non-technical stakeholders.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="soft-skill-item">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="soft-skill-content">
+                            <h3 class="soft-skill-title">Problem Solving</h3>
+                            <p class="soft-skill-description">
+                                Analytical mindset with the ability to break down complex problems and develop innovative solutions.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="soft-skill-item">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="soft-skill-content">
+                            <h3 class="soft-skill-title">Time Management</h3>
+                            <p class="soft-skill-description">
+                                Excellent at prioritizing tasks, meeting deadlines, and managing multiple projects simultaneously.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="soft-skill-item">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <div class="soft-skill-content">
+                            <h3 class="soft-skill-title">Adaptability</h3>
+                            <p class="soft-skill-description">
+                                Quick to learn new technologies and adapt to changing project requirements and industry trends.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="soft-skill-item">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="soft-skill-content">
+                            <h3 class="soft-skill-title">Attention to Detail</h3>
+                            <p class="soft-skill-description">
+                                Precise approach to coding and testing, ensuring high-quality deliverables and bug-free applications.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Offered Services</h2>
+            <div class="services-content">
+                <div class="services-intro">
+                    <p class="services-description">I can help you with:</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Modern Web Development</h3>
+                            <p class="service-description">Building modern, responsive, and scalable websites</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Custom ASP.NET Applications</h3>
+                            <p class="service-description">Developing custom ASP.NET Core web applications</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">API & Backend Systems</h3>
+                            <p class="service-description">Creating REST APIs and backend systems</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Database Solutions</h3>
+                            <p class="service-description">Designing and managing SQL Server databases</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Code Optimization</h3>
+                            <p class="service-description">Fixing bugs, optimizing performance, and refactoring code</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">CONTACT ME</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out!</p>
+                    
+                    <div class="contact-links">
+                        <a href="mailto:mohamedgalal.1126@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>mohamedgalal.1126@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohamedgalal911/" class="contact-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn Profile</span>
+                        </a>
+                        <a href="https://github.com/MGTAR" class="contact-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub Profile</span>
+                        </a>
+                        <a href="tel:+1234567890" class="contact-link">
+                            <i class="fas fa-phone"></i>
+                            <span>+20102356529</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script src="js/script.js"></script>
+    
+    <!-- Optional: Google Analytics -->
+    <!-- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    -->
+</body>
+</html>
